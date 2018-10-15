@@ -1,0 +1,34 @@
+.candidates {
+    background: $white;
+    border-collapse: collapse;
+    font-size: $m-size;
+    margin: $m-size;
+    text-align: center;
+    width: 100%;
+}
+
+.candidates th {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: lighten($red, 10%);
+    padding: 0;
+    border-bottom: 1px solid $red;
+}
+
+.candidates td {
+    color: lighten($red, 10%);
+    padding: $s-size;
+}
+
+.candidates tbody tr:hover td {
+    color: darken($red, 20%);
+    font-weight: 600;
+}
+
+.table-title {
+    color: $dark-red;
+    font-size: $l-size;
+    margin: $xl-size 0 $s-size 0;
+    padding: 0 $m-size;
+    text-align: left;
+}

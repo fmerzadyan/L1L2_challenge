@@ -1,0 +1,10 @@
+html {
+    // Converts rem to base 10 like pixel.
+    font-size: 62.5%;
+}
+
+body {
+    background: white;
+    font-family: Inconsolata, Arial, sans-serif;
+    font-size: $m-size;
+}
