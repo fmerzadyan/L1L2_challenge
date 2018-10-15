@@ -6,3 +6,6 @@ Instructions for use:
 1. `yarn install`
 2. `yarn run dev-server`
 3. Visit locally run server on localhost- the address is stated in terminal output - defaults to `http://localhost:8080/` if port is not already in use.
+
+If you have configured correctly, you should see the below image:
+![/public/images/screenshot.png](/public/images/screenshot.png?raw=true "Screenshot")
